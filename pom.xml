@@ -11,35 +11,35 @@
 	</properties>
 
 	<dependencies>
-		<!-- <dependency> -->
-		<!-- <groupId>org.hibernate</groupId> -->
-		<!-- <artifactId>hibernate-core</artifactId> -->
-		<!-- <version>5.0.1.Final</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.hibernate</groupId> -->
-		<!-- <artifactId>hibernate-ehcache</artifactId> -->
-		<!-- <version>5.0.1.Final</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.hibernate</groupId> -->
-		<!-- <artifactId>hibernate-core</artifactId> -->
-		<!-- <version>5.0.1.Final</version> -->
-		<!-- </dependency> -->
+		<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-core</artifactId>
+		<version>5.0.1.Final</version>
+		</dependency>
+		<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-ehcache</artifactId>
+		<version>5.0.1.Final</version>
+		</dependency>
+		<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-core</artifactId>
+		<version>5.0.1.Final</version>
+		</dependency>
 
 		<!-- begin hiberate 3.25GA 实验 -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate</artifactId>
-			<version>3.2.5.ga</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.transaction</groupId>
-			<artifactId>jta</artifactId>
-			<version>1.0.1B</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/libs/jta-1_0_1B-classes.jar</systemPath>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.hibernate</groupId> -->
+<!-- 			<artifactId>hibernate</artifactId> -->
+<!-- 			<version>3.2.5.ga</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>javax.transaction</groupId> -->
+<!-- 			<artifactId>jta</artifactId> -->
+<!-- 			<version>1.0.1B</version> -->
+<!-- 			<scope>system</scope> -->
+<!-- 			<systemPath>${project.basedir}/libs/jta-1_0_1B-classes.jar</systemPath> -->
+<!-- 		</dependency> -->
 		<!-- end -->
 		<dependency>
 			<groupId>junit</groupId>
